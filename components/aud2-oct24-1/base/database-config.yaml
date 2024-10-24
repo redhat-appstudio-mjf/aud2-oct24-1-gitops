@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: aud2-oct24-1-database-config
+data:
+  VECTORDB_HOST: "aud2-oct24-1-database"
+  VECTORDB_PORT: ""
